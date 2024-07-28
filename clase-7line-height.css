@@ -1,0 +1,120 @@
+:root {
+    /* Definir colores primarios para el tema */
+    --color-primary: #036FDE;
+    --color-black: #202020;
+    --color-white: #FCFCFC;
+}
+
+body {
+    /* Establecer el color de fondo del cuerpo de la página */
+    background-color: var(--color-black);
+}
+
+.wrapper {
+    /* Definir el contenedor principal */
+    width: 540px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.box-1 {
+    /* Establecer el tamaño y estilo de las cajas en la primera columna */
+    width: 180px;
+    height: 180px;
+    background-color: var(--color-primary);
+    text-align: left;
+    line-height: 180px;
+}
+
+.box-2 {
+    /* Establecer el tamaño y estilo de las cajas en la segunda columna */
+    width: 180px;
+    height: 180px;
+    background-color: var(--color-primary);
+    text-align: center;
+    line-height: 180px;
+}
+
+.box-3 {
+    /* Establecer el tamaño y estilo de las cajas en la tercera columna */
+    width: 180px;
+    height: 180px;
+    background-color: var(--color-primary);
+    text-align: right;
+    line-height: 180px;
+}
+
+.item {
+    /* Establecer el tamaño y estilo de cada ítem dentro de las cajas */
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+
+#item-1 {
+    /* Posicionar el ítem 1 en la parte superior izquierda */
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: top;
+}
+
+#item-2 {
+    /* Posicionar el ítem 2 en el centro izquierdo */
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#item-3 {
+    /* Posicionar el ítem 3 en la parte inferior izquierda */
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+
+#item-4 {
+    /* Posicionar el ítem 4 en la parte superior central */
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: top;
+}
+
+#item-5 {
+    /* Posicionar el ítem 5 en el centro */
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#item-6 {
+    /* Posicionar el ítem 6 en la parte inferior central */
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+
+#item-7 {
+    /* Posicionar el ítem 7 en la parte superior derecha */
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: top;
+}
+
+#item-8 {
+    /* Posicionar el ítem 8 en el centro derecho */
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#item-9 {
+    /* Posicionar el ítem 9 en la parte inferior derecha */
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: bottom;
+}
