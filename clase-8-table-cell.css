@@ -1,0 +1,100 @@
+:root {
+    --color-primary: #036fde;
+    --color-black: #202020;
+    --color-white: #fcfcfc;
+}
+
+body {
+    background-color: var(--color-black);
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 60px;
+    gap: 10px;
+}
+
+.container {
+    width: 180px;
+    height: 180px;
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-black);
+    position: relative;
+}
+
+.container-1 .element {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-2 .element {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.container-3 .element {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container-4 .element {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-5 .element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-6 .element {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-7 .element {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container-8 .element {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.container-9 .element {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.element {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-black);
+    overflow: hidden;
+    padding: 5px;
+    box-sizing: border-box;
+}

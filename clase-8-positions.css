@@ -1,0 +1,81 @@
+body {
+    background-color: #202020;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    width: 540px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.container {
+    width: 180px;
+    height: 180px;
+    background-color: #036fde;
+    position: relative;
+}
+
+.element {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #fcfcfc;
+    position: absolute;
+}
+
+.element-1 {
+    top: 0;
+    left: 0;
+}
+
+.element-2 {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.element-3 {
+    bottom: 0;
+    left: 0;
+}
+
+.element-4 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.element-5 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.element-6 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.element-7 {
+    top: 0;
+    right: 0;
+}
+
+.element-8 {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.element-9 {
+    bottom: 0;
+    right: 0;
+}
