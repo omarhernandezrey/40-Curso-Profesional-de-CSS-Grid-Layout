@@ -67,9 +67,13 @@ body {
 }
 
 .item-7 {
-  background: hotpink;
-  grid-column: 3 / 4;
-  grid-row: 3 / 4;
+  background-image: url(/foto\ 3x4.jpg);
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+  background-size: cover;
+  background-position: center;
+  opacity: 50%;
+  box-shadow: #81ccf1 0px 0px 10px 10px;
 }
 
 .item-8 {
